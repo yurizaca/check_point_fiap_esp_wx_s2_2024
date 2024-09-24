@@ -5,8 +5,5 @@ Por: Professor Fellipe Souto.
 
 ## Árvore de Projetos
 
-1. [Checkpoint 1](checkpoint_1/README.md)
-2. [Checkpoint 2](checkpoint_2/README.md)
-3. [Checkpoint 3](checkpoint_3/README.md)
-
+1. [CHk_1 :: Problema: Compressão de dados gênicos](checkpoint_1/PROBLEM.md)
 
