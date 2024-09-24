@@ -1,7 +1,12 @@
 # Problema: Compressão de dados gênicos
 
+Grupo: 2 a 4 pessoas
+Data de liberação: 24/09/2024
+Deadline de entrega: 08/10/2024 
+
 Imagine que você foi contratado como Engenheiro de Software por uma empresa de bioinformática para desenvolver um software que seja capaz de comprimir dados. Pegando a definição do artigo do Wikipédia, temos que:
 
+> 
 > A compressão de dados é o ato de reduzir o espaço ocupado por dados no determinado dispositivo digital/dispositivo computacional. Essa operação é realizada através de diversos algoritmos de compressão, reduzindo a quantidade de Bytes para representar um dado, sendo esse dado uma imagem, um texto, ou um arquivo (ficheiro) qualquer.
 >
 > Comprimir dados destina-se também a retirar a redundância, baseando-se que muitos dados contêm informações redundantes que podem ou precisam ser eliminadas de alguma forma. Essa forma é através de uma regra, chamada de código ou protocolo, que, quando seguida, elimina os bits redundantes de informações, de modo a diminuir seu tamanho nos ficheiros. Por exemplo, a sequência "AAAAAA" que ocupa 6 bytes, poderia ser representada pela sequência "6A", que ocupa 2 bytes, economizando 67% de espaço.
@@ -16,6 +21,7 @@ Pensando que a Sprint do trabalho tem duas semanas de duração e nosso chefe pe
 
 Para esse projeto implementaremos um algoritmo bem simples, conhecido como "Run-Length Encoding (RLE)". 
 
+> 
 > Codificação run-length (ou RLE) é uma forma simples de compressão sem perda de dados onde sequências longas de valores repetidos são armazenadas como um único valor e sua contagem no lugar de sua sequência original. É principalmente útil em dados com muitas repetições de valores. Considere, por exemplo, imagens gráficas simples tais quais ícones, line art, jogos da vida e animações. Não é útil em arquivos que não possuem muitas repetições, pois pode aumentar bastante o tamanho do arquivo.
 >
 > RLE também pode ser usado para se referir a um formato de arquivo gráfico inicial aceito pelo CompuServe para comprimir imagens em preto e branco, mas foi amplamente substituído pelo posterior Graphics Interchange Format. RLE também se refere a um formato de imagem pouco utilizado no Windows 3.x, com extensão rle, que é um Bitmap codificado em run-length, usado para comprimir a tela de inicialização do Windows 3.x.
@@ -35,8 +41,8 @@ OUTPUT: G2A2C2T2C2
 INPUT: GGGGGGGGGG
 OUTPUT: G10
 
-INPUT: TGGGGGGGGGC
-OUTPUT: T1G9C1
+INPUT: TGGGGGGGGC
+OUTPUT: T1G8C1
 
 INPUT: GGGGGGGGCC
 OUTPUT: G8C2
@@ -185,9 +191,9 @@ O relatório deve ser escrito em markdown (https://www.markdownguide.org/) diret
 ## Dicas e Considerações
 
 - Estude os commits e códigos produzidos nas aulas.
-- Discutam entre grupo, apenas em consenso chegamos às melhores ideias.
+- Discutam em grupo, apenas em consenso chegamos às melhores ideias.
 - Não use chatGPT ou qualquer tipo de IA/ML, chatbot, LLM ou coisa afim. Seu uso acarretará em zero para todo o grupo. 
-- Não será tolerado plágios, um cientista de verdade compartilha e referencia suas fontes de forma correta. Não se constrói a ciência sozinha, apenas em comunidade. Fazemos isso com cortêsia e consideração por aqueles que vieram antes de nós. Esse é o pensamento científico que adotaremos nessa atividade e nas futuras atividades.
+- Não será tolerado plágios, um cientista de verdade compartilha e referencia suas fontes de forma correta. Não se constrói a Ciência de forma sozinha, apenas em comunidade. Faremos isso com cortêsia e consideração por aqueles que vieram antes de nós. Esse é o pensamento científico que adotaremos nessa e nas atividades futuras.
 - Tirem dúvidas por e-mail comigo, costumo responder rápido
 - Conversem entre vocês, mas não copiem um dos outros, isso também é plágio ;) .
-- Se divirtam, esse é o objetivo final da ciência :) .
+- Se divirtam, esse é o objetivo final da ciência e desse trabalho:) .
