@@ -198,3 +198,7 @@ O relatório deve ser escrito em markdown (https://www.markdownguide.org/) diret
 - Tirem dúvidas por e-mail comigo, costumo responder rápido
 - Conversem entre vocês, mas não copiem um dos outros, isso também é plágio ;) .
 - Se divirtam, esse é o objetivo final da ciência e desse trabalho:) .
+
+## Atualizações
+
+- Mudamos o dia de entrega de 08/10/2024 para 18/10/2024
