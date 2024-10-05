@@ -14,9 +14,9 @@ public interface NucleotideoRandomGenerator {
 }
 ```
 
-Você deve criar um novo projeto Maven conforme visto em aula, com o nome **libunclegerardo**. Nesse projeto crie a estrutura necessária para implementar a interface solicitada.
+Você deverá criar um novo projeto Maven, conforme visto em aula, com o nome **libunclegerardo**. Nesse projeto crie a estrutura necessária para implementar a interface solicitada.
 
-O método **generate** recebe um número inteiro positivo, que é o tamanho da sequência que devemos gerar. Como essa sequência será gerada fica a cargo de você. Queremos exercitar a escrita de diferentes implementações dessa interface, assim estaremos explorando o verdadeiro poder do polimorfismo e contrato entre classes.
+O método **generate** deverá receber um número inteiro positivo, que é o tamanho da sequência que devemos gerar. Como essa sequência será gerada ficará a cargo do grupo. Queremos exercitar a escrita de diferentes implementações dessa interface, assim estaremos explorando o verdadeiro poder do polimorfismo e contrato entre classes.
 
 Alguns exemplos de geração de cadeias aleatórias:
 
