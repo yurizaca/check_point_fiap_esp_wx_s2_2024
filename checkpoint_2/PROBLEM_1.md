@@ -33,6 +33,6 @@ saída: TGCATGACTA
 entrada: 4
 saída: ACTG
 
-entrada: 4
+entrada: 8
 saída: GTCAACTG
 ```
