@@ -1,4 +1,4 @@
-# Problema 1
+# Problema 1 - Geração de cadeias aleatórias
 
 -  Data de publicação: 04/10/2024
 -  Data limite de entrega: 18/10/2024
